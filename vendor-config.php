@@ -166,6 +166,17 @@ $cc_vendors = [
         },
     ]),
 
+    new Vendor([
+        'method' => 'paypal_card',
+        'title' => 'Paypal Card',
+        'currency' => ['USD'],
+        'country' => '',
+        'enabled' => 'no', 
+        'checked' => 'no',
+        'icon' => 'images/paypal-logo.png',
+       
+    ]),
+
 ];
 
 function process_billing_address($params, $order) {
